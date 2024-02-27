@@ -4,9 +4,9 @@
  */
 
 // External dependencies
-import * as angular from "angular";
-import uiRouter from "@uirouter/angularjs";
 import { upgradeModule } from "@uirouter/angular-hybrid";
+import uiRouter from "@uirouter/angularjs";
+import * as angular from "angular";
 
 // Feature Modules
 import { globalModule } from "./global/index";

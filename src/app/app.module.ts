@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
-import { UpgradeModule } from '@angular/upgrade/static';
 import { BrowserModule } from '@angular/platform-browser';
+import { UpgradeModule } from '@angular/upgrade/static';
 
-import { UIRouterUpgradeModule } from '@uirouter/angular-hybrid';
 import { UIRouterModule } from '@uirouter/angular';
+import { UIRouterUpgradeModule } from '@uirouter/angular-hybrid';
 import { sampleAppModuleAngularJS } from './app.angularjs.module';
 
 import { PrefsModule } from './prefs/prefs.module';
